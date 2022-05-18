@@ -28,7 +28,7 @@ void loop(){
   //  displayAnimate returns true when animation is finished
   //  we then reset the animation
   if (matrix.displayAnimate()){
-    matrix.displayText("Bijoya", PA_CENTER, 50, 2000, PA_RANDOM, PA_RANDOM);
+    matrix.displayText("Daisy", PA_CENTER, 50, 2000, PA_RANDOM, PA_RANDOM);
   }
 
 }
