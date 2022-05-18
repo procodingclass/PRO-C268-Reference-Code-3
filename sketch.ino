@@ -17,8 +17,7 @@ MD_Parola matrix = MD_Parola(MD_MAX72XX::PAROLA_HW, chip_select_pin, max_devices
 
 void setup(){
 
-  Serial.begin(9660);
-  Serial.print("What to display?");
+  Serial.begin(9600);
   matrix.begin();  //  initialise the module
   matrix.displayClear();  //  clear, if there is anything
 }
